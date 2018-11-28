@@ -4,7 +4,11 @@ import AppBar from 'material-ui/AppBar';
 const NavBar = () => {
   return (
     <div>
-      <AppBar title='Image Finder'
+      <AppBar title='Image And Video Finder'
+      style={{
+        background: "linear-gradient(to right,  #96aee2,  #7489eb,  #5885e6)"
+      }}
+  
       />
       
   
